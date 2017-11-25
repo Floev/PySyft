@@ -15,6 +15,18 @@ The goal of this library is to give the user the ability to efficiently train De
 
 ## Local setup
 
+### Packaged installation
+ - Docker install (`TODO`)
+ - For anaconda install run
+ ```sh
+install_for_anaconda.sh
+```
+or for windows users without cygwin
+ ```sh
+install_for_anaconda_for_windows.bat openmined
+```
+where you can replace openmined with any other name for your conda env
+
 ### Prerequisites
 
 - Make sure Python 3.5+ in installed on your machine by checking `python3 --version`
@@ -22,7 +34,6 @@ The goal of this library is to give the user the ability to efficiently train De
 - None if you are using anaconda
 
 ### Python Requirements
-
 The Python dependencies are listed in [`requirements.txt`](./requirements.txt) and can be installed through
 ```sh
 pip3 install -r requirements.txt
@@ -36,6 +47,7 @@ python3 setup.py install
 
 ## For Contributors
 If you are interested in contributing to Syft, first check out our [Contributor Quickstart Guide](https://github.com/OpenMined/Docs/blob/master/contributing/quickstart.md) and then sign into our [Slack Team](https://openmined.slack.com/) channel #team_pysyft to let us know which projects sound interesting to you! (or propose your own!).
+To complie code changes run python3 setup.py install on mac/linux, or python setup.py install on windows
 
 ## Relevant Literature
 As both Homomorphic Encryption and Deep Learning are still somewhat sparsely known, below is a curated list of relevant reading materials to bring you up to speed with the major concepts and themes of these exciting fields.
