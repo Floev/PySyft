@@ -47,7 +47,7 @@ python3 setup.py install
 
 ## For Contributors
 If you are interested in contributing to Syft, first check out our [Contributor Quickstart Guide](https://github.com/OpenMined/Docs/blob/master/contributing/quickstart.md) and then sign into our [Slack Team](https://openmined.slack.com/) channel #team_pysyft to let us know which projects sound interesting to you! (or propose your own!).
-To complie code changes run python3 setup.py install on mac/linux, or python setup.py install on windows
+To compile code changes run ```python3 setup.py install``` on mac/linux, or ```python setup.py install``` on windows
 
 ## Relevant Literature
 As both Homomorphic Encryption and Deep Learning are still somewhat sparsely known, below is a curated list of relevant reading materials to bring you up to speed with the major concepts and themes of these exciting fields.
